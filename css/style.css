@@ -1,3 +1,4 @@
+/* GENERAL RULES */
 *{
   box-sizing: border-box;
   padding: 0;
@@ -9,17 +10,18 @@ body{
   height:100vh;
 }
 
+/* HEADER */
 header{
   background-color: #2e3a46;
   height:40px;
 }
-
+/* LOGO */
 header img{
   height: 80%;
   margin-left: 20%;
   margin-top: 4px;
 }
-
+/*MAIN SECTION*/
 main{
   width:60%;
   margin:20px auto;
@@ -37,7 +39,7 @@ label{
   color:#fff;
   margin-right:10px;
 }
-
+/* INPUT */
 select{
   border:none;
   background-color: #2e3a46;
@@ -45,12 +47,11 @@ select{
   padding:5px 10px;
   border-radius: 15px;
 }
-
+/*ALBUM CONTAINER*/
 .container{
   width:calc(25% - 15px);
   margin:15px 15px 0 0;
   background-color: #2e3a46;
-
   text-align: center;
 }
 
@@ -59,12 +60,12 @@ select{
     min-height:50%;
   margin:0 auto;
 }
-
+/* IMG */
 .img-wrap img{
   width: 100%;
   margin-top: 15px;
 }
-
+/* ALBUMS DESCRIPTION */
 .title{
   color:#fff;
   font-size: 14px;

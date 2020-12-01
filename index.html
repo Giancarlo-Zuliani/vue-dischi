@@ -9,6 +9,7 @@
     <title>spottyfi</title>
   </head>
   <body>
+
     <!-- HEADER -->
     <header>
       <img src="resources/logo.png" alt="">
@@ -17,6 +18,8 @@
     <!--MAIN -->
 
     <main id="root">
+
+      <!--FILTER INPUT-->
       <div id="genreinput">
         <label for="select">Filter by genre:</label>
         <select name="" v-model ="genreselected" @change="genreselection()">
@@ -28,6 +31,7 @@
         </select>
       </div>
 
+      <!-- ALBUMS -->
       <div v-for="disk in filteredAlbums" class="container">
         <div class="img-wrap">
           <img :src="disk.poster" alt="">
@@ -37,9 +41,8 @@
         <div class="year">{{disk.year}}</div>
       </div>
 
-
     </main>
-
+    <!-- SCRIPT -->
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
