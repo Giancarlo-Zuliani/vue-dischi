@@ -19,7 +19,7 @@
     <main id="root">
       <div id="genreinput">
         <label for="select">Filter by genre</label>
-        <select name="">
+        <select name="" v-model ="genreselected" @change="genreselection()">
           <option value="all">All</option>
           <option value="rock">Rock</option>
           <option value="pop">Pop</option>
