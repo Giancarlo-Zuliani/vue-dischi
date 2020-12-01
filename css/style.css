@@ -34,9 +34,9 @@ main{
 
 .container{
   width:calc(25% - 15px);
-  margin:15px;
+  margin:15px 15px 0 0;
   background-color: #2e3a46;
-  min-height:200px;
+
   text-align: center;
 }
 
@@ -50,6 +50,17 @@ main{
   margin-top: 15px;
 }
 
+.title{
+  color:#fff;
+  font-size: 14px;
+  margin:5px auto;
+}
+
 .author , .year {
   color:#7b7c7c;
+  font-size: 12px;
+}
+
+.year{
+  margin-bottom: 15px;
 }

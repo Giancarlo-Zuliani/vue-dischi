@@ -19,7 +19,7 @@
     <main id="root">
       <div id="genreinput">
         <label for="select">Filter by genre</label>
-        <select v-model='genreselection' name="">
+        <select name="">
           <option value="all">All</option>
           <option value="rock">Rock</option>
           <option value="pop">Pop</option>
@@ -28,14 +28,15 @@
         </select>
       </div>
 
-      <div class="container">
+      <div v-for="disk in albums" class="container">
         <div class="img-wrap">
-          <img src="https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg" alt="">
+          <img :src="disk.poster" alt="">
         </div>
-        <div class="title">NEW JERSEY</div>
-        <div class="author">Bon Jovi</div>
-        <div class="year">1988</div>
+        <div class="title">{{disk.title}}</div>
+        <div class="author">{{disk.author}}</div>
+        <div class="year">{{disk.year}}</div>
       </div>
+
 
     </main>
 
