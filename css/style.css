@@ -33,6 +33,19 @@ main{
   width: 100%;
 }
 
+label{
+  color:#fff;
+  margin-right:10px;
+}
+
+select{
+  border:none;
+  background-color: #2e3a46;
+  color:#fff;
+  padding:5px 10px;
+  border-radius: 15px;
+}
+
 .container{
   width:calc(25% - 15px);
   margin:15px 15px 0 0;
