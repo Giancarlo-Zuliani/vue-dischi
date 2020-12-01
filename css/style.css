@@ -56,11 +56,12 @@ select{
 
 .img-wrap{
   width:80%;
+    min-height:50%;
   margin:0 auto;
 }
 
 .img-wrap img{
-  max-width: 100%;
+  width: 100%;
   margin-top: 15px;
 }
 
