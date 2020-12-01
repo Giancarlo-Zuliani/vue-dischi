@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background-color: #1e2d3b;
+  height:100vh;
+}
+
+header{
+  background-color: #2e3a46;
+  height:40px;
+}
+
+header img{
+  height: 80%;
+  margin-left: 20%;
+  margin-top: 4px;
+}
+
+main{
+  width:60%;
+  margin:20px auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#genreinput{
+  width: 100%;
+}
+
+.container{
+  width:calc(25% - 15px);
+  margin:15px;
+  background-color: #2e3a46;
+  min-height:200px;
+  text-align: center;
+}
+
+.img-wrap{
+  width:80%;
+  margin:0 auto;
+}
+
+.img-wrap img{
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+.author , .year {
+  color:#7b7c7c;
+}
