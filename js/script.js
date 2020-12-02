@@ -20,5 +20,15 @@ const APP = new Vue({
         this.filteredAlbums = this.albums
       }
     }
+  },
+  computed:{
+    genFilter : function(){
+      return this.albums.filter((album) =>{
+       if (this.genreselected === "all") {
+         return this.albums;
+       } else {
+         return album.genre.toLowerCase() === this.genreselected;
+    }
+  })
   }
-})
+}})

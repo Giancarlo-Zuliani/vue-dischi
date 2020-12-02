@@ -34,9 +34,9 @@
       </div>
 
       <!-- ALBUMS -->
-      <div v-for="disk in filteredAlbums" class="container">
+      <div v-for="disk in genFilter" class="container">
         <div class="img-wrap">
-          <img :src="disk.poster" alt="">
+          <img :src="disk.poster" alt="copertina album">
         </div>
         <div class="title">{{disk.title}}</div>
         <div class="author">{{disk.author}}</div>
